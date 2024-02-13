@@ -1,0 +1,28 @@
+{
+  "5344c411-daea-4997-b85c-63a59de1cadc": {
+    "appActions": [],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1670/1.0.1670.3526/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://escolatrabalhador4.sharepoint.com/sites/SalodeBelezaEstreladaManh": {
+        "dataSources": {
+          "Tabela de Preços": {
+            "tableName": "bf5c0ed2-b9f7-4ab2-849f-8451ac2bda9a"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Tabela de Preços"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "5344c411-daea-4997-b85c-63a59de1cadc"
+  }
+}

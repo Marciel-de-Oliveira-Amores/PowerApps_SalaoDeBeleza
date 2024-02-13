@@ -1,0 +1,258 @@
+TabelaPreçoPag2 As screen:
+
+    Rectangle2_1 As rectangle:
+        Height: =1136
+        Width: =640
+        ZIndex: =1
+
+    Rectangle3_1 As rectangle:
+        Fill: =RGBA(95, 99, 115, 1)
+        Height: =77
+        Width: =640
+        ZIndex: =2
+
+    Label2_2 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        Size: =26
+        Text: ="Tabela de Preços"
+        Width: =333
+        X: =153
+        Y: =3
+        ZIndex: =3
+
+    Icon4_1 As icon.Home:
+        Color: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.Home
+        OnSelect: =Navigate(TelaPrincipal)
+        X: =24
+        Y: =9
+        ZIndex: =4
+
+    Label2_3 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        Size: =26
+        Text: ="Cabelo"
+        Width: =166
+        X: =236
+        Y: =92
+        ZIndex: =5
+
+    Rectangle4_1 As rectangle:
+        BorderThickness: =1
+        Fill: =RGBA(204, 208, 225, 1)
+        Height: =153
+        Width: =568
+        X: =35
+        Y: =162
+        ZIndex: =6
+
+    Label3_2 As label:
+        Height: =70
+        Size: =21
+        Text: ="CORTE FEMININO "
+        Width: =253
+        X: =43
+        Y: =177
+        ZIndex: =7
+
+    Label3_3 As label:
+        Height: =37
+        Size: =12
+        Text: =" a partir de "
+        Width: =129
+        X: =56
+        Y: =220
+        ZIndex: =8
+
+    Label4_1 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =84
+        Size: =29
+        Text: ="R$ 30,00"
+        Width: =206
+        X: =377
+        Y: =190
+        ZIndex: =9
+
+    Rectangle4_8 As rectangle:
+        BorderThickness: =1
+        Fill: =RGBA(204, 208, 225, 1)
+        Height: =153
+        Width: =568
+        X: =37
+        Y: =334
+        ZIndex: =10
+
+    Label3_16 As label:
+        Height: =70
+        Size: =21
+        Text: ="CORTE FEMININO "
+        Width: =253
+        X: =45
+        Y: =349
+        ZIndex: =11
+
+    Label3_17 As label:
+        Height: =37
+        Size: =12
+        Text: =" a partir de "
+        Width: =129
+        X: =58
+        Y: =392
+        ZIndex: =12
+
+    Label4_8 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =84
+        Size: =29
+        Text: ="R$ 30,00"
+        Width: =206
+        X: =379
+        Y: =362
+        ZIndex: =13
+
+    Rectangle4_9 As rectangle:
+        BorderThickness: =1
+        Fill: =RGBA(204, 208, 225, 1)
+        Height: =153
+        Width: =568
+        X: =37
+        Y: =508
+        ZIndex: =14
+
+    Label3_18 As label:
+        Height: =70
+        Size: =21
+        Text: ="CORTE FEMININO "
+        Width: =253
+        X: =45
+        Y: =523
+        ZIndex: =15
+
+    Label3_19 As label:
+        Height: =37
+        Size: =12
+        Text: =" a partir de "
+        Width: =129
+        X: =58
+        Y: =566
+        ZIndex: =16
+
+    Label4_9 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =84
+        Size: =29
+        Text: ="R$ 30,00"
+        Width: =206
+        X: =379
+        Y: =536
+        ZIndex: =17
+
+    Rectangle4_10 As rectangle:
+        BorderThickness: =1
+        Fill: =RGBA(204, 208, 225, 1)
+        Height: =153
+        Width: =568
+        X: =35
+        Y: =681
+        ZIndex: =18
+
+    Label3_20 As label:
+        Height: =70
+        Size: =21
+        Text: ="CORTE FEMININO "
+        Width: =253
+        X: =43
+        Y: =696
+        ZIndex: =19
+
+    Label3_21 As label:
+        Height: =37
+        Size: =12
+        Text: =" a partir de "
+        Width: =129
+        X: =56
+        Y: =739
+        ZIndex: =20
+
+    Label4_10 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =84
+        Size: =29
+        Text: ="R$ 30,00"
+        Width: =206
+        X: =377
+        Y: =709
+        ZIndex: =21
+
+    Rectangle4_11 As rectangle:
+        BorderThickness: =1
+        Fill: =RGBA(204, 208, 225, 1)
+        Height: =153
+        Width: =568
+        X: =35
+        Y: =855
+        ZIndex: =22
+
+    Label3_22 As label:
+        Height: =70
+        Size: =21
+        Text: ="CORTE FEMININO "
+        Width: =253
+        X: =43
+        Y: =870
+        ZIndex: =23
+
+    Label3_23 As label:
+        Height: =37
+        Size: =12
+        Text: =" a partir de "
+        Width: =129
+        X: =56
+        Y: =913
+        ZIndex: =24
+
+    Label4_11 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =84
+        Size: =29
+        Text: ="R$ 30,00"
+        Width: =206
+        X: =377
+        Y: =883
+        ZIndex: =25
+
+    Arrow1_1 As arrow:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =72
+        OnSelect: =Navigate(TabelaPreçoPag3)
+        Width: =68
+        X: =548
+        Y: =1035
+        ZIndex: =26
+
+    Arrow2_5 As arrow.backArrow:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =72
+        OnSelect: =Navigate(TabelaPreçoPag1)
+        Width: =68
+        X: =24
+        Y: =1035
+        ZIndex: =27
+
+    Label7_5 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =34
+        Size: =18
+        Text: ="Pag-2"
+        Width: =91
+        X: =254
+        Y: =1054
+        ZIndex: =28
+

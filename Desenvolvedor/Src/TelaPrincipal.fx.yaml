@@ -1,0 +1,91 @@
+TelaPrincipal As screen:
+    BackgroundImage: ='Logotipo salão de beleza azul'
+    ImagePosition: =ImagePosition.Fill
+
+    Rectangle1 As rectangle:
+        Fill: =RGBA(98, 55, 179, 0.27)
+        Height: =110
+        Width: =569
+        X: =2
+        Y: =728
+        ZIndex: =1
+
+    Rectangle1_1 As rectangle:
+        Fill: =RGBA(98, 55, 179, 0.26)
+        Height: =110
+        Width: =569
+        X: =71
+        Y: =870
+        ZIndex: =2
+
+    Rectangle1_2 As rectangle:
+        Fill: =RGBA(98, 55, 179, 0.39)
+        Height: =110
+        Width: =569
+        X: =2
+        Y: =1002
+        ZIndex: =3
+
+    Icon1 As icon.Money:
+        Color: =RGBA(54, 176, 75, 1)
+        Icon: =Icon.Money
+        OnSelect: =Navigate(TabelaPreçoPag1)
+        X: =28
+        Y: =751
+        ZIndex: =4
+
+    Icon2 As icon.CalendarBlank:
+        Color: =RGBA(255, 255, 0, 1)
+        Icon: =Icon.CalendarBlank
+        OnSelect: =Navigate(Calendario)
+        X: =106
+        Y: =893
+        ZIndex: =5
+
+    Icon3 As icon.Waypoint:
+        Color: =RGBA(184, 0, 0, 1)
+        Icon: =Icon.Waypoint
+        OnSelect: =Navigate(Localidade)
+        X: =28
+        Y: =1025
+        ZIndex: =6
+
+    Label1 As label:
+        Align: =Align.Center
+        Color: =RGBA(26, 26, 26, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        OnSelect: =Navigate(TabelaPreçoPag1)
+        Size: =21
+        Text: ="Tabela de preços"
+        Width: =270
+        X: =146
+        Y: =751
+        ZIndex: =7
+
+    Label1_1 As label:
+        Align: =Align.Center
+        Color: =RGBA(26, 26, 26, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        OnSelect: =Navigate(Calendario)
+        Size: =21
+        Text: ="Calendario"
+        Width: =200
+        X: =188
+        Y: =890
+        ZIndex: =8
+
+    Label1_2 As label:
+        Align: =Align.Center
+        Color: =RGBA(26, 26, 26, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        OnSelect: =Navigate(Localidade)
+        Size: =21
+        Text: ="Localizador"
+        Width: =201
+        X: =106
+        Y: =1025
+        ZIndex: =9
+
